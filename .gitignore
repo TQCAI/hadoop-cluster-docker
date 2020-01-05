@@ -1,1 +1,9 @@
 .DS_Store
+.vscode
+.idea
+*.pub
+__pycache__
+*.pyc
+hadoop-3.2.0
+*.deb
+

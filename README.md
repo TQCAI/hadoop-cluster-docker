@@ -1,5 +1,12 @@
 ## Run Hadoop Cluster within Docker Containers
 
+tqc 做的改动：
+
+1. java-8
+2. hadoop-3.2.0
+
+-----
+
 - Blog: [Run Hadoop Cluster in Docker Update](http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-update-english/)
 - 博客: [基于Docker搭建Hadoop集群之升级版](http://kiwenlau.com/2016/06/12/160612-hadoop-cluster-docker-update/)
 

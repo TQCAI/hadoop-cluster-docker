@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo ""
+cat ~/.ssh/id_rsa.pub > id_rsa.pub
 
-echo -e "\nbuild docker hadoop image\n"
-sudo docker build -t kiwenlau/hadoop:1.0 .
-
-echo ""
+echo  "build docker hadoop image"
+docker build -t tqc/hadoop:1.0 .
