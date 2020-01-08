@@ -1,0 +1,9 @@
+#!/usr/bin/expect
+
+spawn python passwd.py
+
+expect "Enter password:"
+send "123456\r"
+expect "Verify password:"
+send "123456\r"
+expect eof

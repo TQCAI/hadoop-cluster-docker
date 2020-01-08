@@ -5,5 +5,7 @@
 __pycache__
 *.pyc
 hadoop-3.2.0
+spark-3.0.0-preview2-bin-hadoop3.2
+Miniconda3*
 *.deb
 

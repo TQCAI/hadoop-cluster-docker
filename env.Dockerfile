@@ -1,0 +1,11 @@
+ENV SCALA_HOME=/usr/share/scala
+ENV HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+ENV SPARK_HOME=/usr/local/spark
+ENV PATH=$PATH:/usr/local/spark/bin
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 
+ENV HADOOP_HOME=/usr/local/hadoop 
+ENV PATH=$PATH:/usr/local/hadoop/bin:/usr/local/hadoop/sbin 
+ENV PYSPARK_DRIVER_PYTHON="/root/miniconda3/bin/python"
+ENV PYSPARK_PYTHON="/root/miniconda3/bin/python"
+ENV PYTHONPATH=$PYTHONPATH:$SPARK_HOME/python
+ENV PYTHONPATH=$PYTHONPATH:$SPARK_HOME/python/lib/py4j-0.10.8.1-src.zip
